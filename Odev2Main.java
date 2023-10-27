@@ -13,6 +13,10 @@ public class Odev2Main {
         int faktoriyel = odev.faktoriyelHesaplama(faktoriyelSayisi);
 
         int maas = constructorForPayment.maasHesabi();
+        int toplamMesaiSaati = constructorForPayment.toplamMesaiSaati;
+        int toplamCalismaSaati = constructorForPayment.toplamCalisilanSaat;
+
+        int otoparkUcreti = odev.otoparkUcreti(4);
 
         //Kilometre = mil.
         System.out.println(kilometre + " kilometre = " + mil + " mil.");
@@ -30,9 +34,9 @@ public class Odev2Main {
         odev.icAci(4);
 
         //Maaş göstergesi.
-        System.out.println("Mesai saati ve ücreti: " + constructorForPayment.toplamMesaiSaati +" " + constructorForPayment.toplamMesaiSaati*80 + " TL.\nÇalışılan saat ve ücret: "+ constructorForPayment.toplamCalisilanSaat+ " ," + maas + " TL.");
+        System.out.println("Mesai saati ve ücreti: " + toplamMesaiSaati +" saat, " + toplamMesaiSaati*80 + " TL.\nÇalışılan saat ve ücret: "+ toplamCalismaSaati+ " saat," + maas + " TL.");
 
         //Otopark ücreti.
-        System.out.println("Toplam otopark kullanım ücreti: "+odev.otoparkUcreti(4) + " TL.");
+        System.out.println("Toplam otopark kullanım ücreti: "+ otoparkUcreti + " TL.");
     }
 }
