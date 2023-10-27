@@ -3,24 +3,36 @@ package com.example.ders_2.odev2;
 public class Odev2Main {
     public static void main(String[] args) {
         Odev2 odev = new Odev2();
+        Odev2 constructorForPayment = new Odev2(30);
 
-        int sayi = 6;
+        double kilometre = 18;
 
-        int kilometre = 18;
+        double mil = odev.kilometerToMil(kilometre);
 
-        System.out.println(kilometre + " kilometre = " + odev.kilometerToMil(kilometre) + " mil.");
+        int faktoriyelSayisi = 8; //Bu değişken kullanıcıdan istenebilir.
+        int faktoriyel = odev.faktoriyelHesaplama(faktoriyelSayisi);
 
-        odev.dikdortgenAlan(20,30);  //2.Soru
+        int maas = constructorForPayment.maasHesabi();
 
-        System.out.println( sayi + " sayısının faktoriyeli: " + odev.faktoriyelHesaplama(6)); // 3. Soru
+        //Kilometre = mil.
+        System.out.println(kilometre + " kilometre = " + mil + " mil.");
 
+        //Dörtgen alanı.
+        odev.dikdortgenAlan(20,30);
+
+        //Faktöriyel hesabı.
+        System.out.println( faktoriyelSayisi + " sayısının faktöriyeli= " + faktoriyel);
+
+        //Toplam 'e' harfi sayısı.
         odev.eHarfiSayisi("MERHABA elif.");
 
-        odev.icAci(3);
+        //Şekil iç açısı.
+        odev.icAci(4);
 
-        odev.maasHesabi(40);
-        System.out.println("Mesai saati ve ücreti: " + odev.toplamMesaiSaati +" " + odev.toplamMesaiSaati*80 + " TL.\nÇalışılan saat ve ücret: "+ odev.toplamCalisilanSaat+ " ," +odev.maasHesabi(40) + " TL.");
+        //Maaş göstergesi.
+        System.out.println("Mesai saati ve ücreti: " + constructorForPayment.toplamMesaiSaati +" " + constructorForPayment.toplamMesaiSaati*80 + " TL.\nÇalışılan saat ve ücret: "+ constructorForPayment.toplamCalisilanSaat+ " ," + maas + " TL.");
 
+        //Otopark ücreti.
         System.out.println("Toplam otopark kullanım ücreti: "+odev.otoparkUcreti(4) + " TL.");
     }
 }
