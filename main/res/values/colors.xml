@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="başlık">#BF2011</color>
+    <color name="içerik_yazısı">#013440</color>
+    <color name="toolbar">#034159</color>
+    <color name="buton">#F2BE5C</color>
+</resources>

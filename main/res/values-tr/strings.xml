@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TasarimOdevi</string>
+    <string name="yemek_başlık">Sini Kebap</string>
+    <string name="rate_butonu">PUANLA</string>
+    <string name="youtube_link">Youtube Video</string>
+    <string name="içerik1">700 gram kıyma</string>
+    <string name="içerik2">1 adet kuru soğan</string>
+    <string name="içerik3">3 tane yeşil biber</string>
+    <string name="içerik4">2 diş sarımsak</string>
+    <string name="içerik5">1 tutam maydanoz</string>
+    <string name="içerik6">2 adet kaypa biber</string>
+    <string name="içerik7">1 çay kaşığı karabiber</string>
+    <string name="içerik8">1 çay kaşığı kekik</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <string name="yemek_başlık">Sini Kebab</string>
+    <string name="rate_butonu">RATE</string>
+    <string name="youtube_link">Youtube Video</string>
+    <string name="içerik1">700 gr mince</string>
+    <string name="içerik2">1 onion</string>
+    <string name="içerik3">3 green pepper</string>
+    <string name="içerik4">2 cloves of garlic</string>
+    <string name="içerik5">1 parsley</string>
+    <string name="içerik6">2 capia pepper</string>
+    <string name="içerik7">1 teaspoon black pepper</string>
+    <string name="içerik8">1 teaspoon of tyhme</string>
+
+</resources>
